@@ -1,0 +1,261 @@
+.postCard__header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+.postCard__photo-user {
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.postCard {
+    margin-top: 20px;
+    box-shadow: 0 0.5px 0.5px 1px rgb(189, 189, 189);
+    width: 568px;
+    border-radius: 2px;
+    background: white;
+}
+
+.postCard__options{
+    margin-right: 1px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.img-user-like{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.user-like{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.like-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like-user-follow{
+    -webkit-appearance: none;
+    border: 1px solid #0095f6;
+    border: 1px solid rgba(var(--d69,0,149,246),1);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: 110px;
+    height: 30px;
+    background: #0095f6;
+    background: rgba(var(--d69,0,149,246),1);
+    border-color: #0095f6;
+    border-color: rgba(var(--d69,0,149,246),1);
+    color: #fff;
+    color: rgba(var(--eca,255,255,255),1);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+@media all and (max-width: 1300px) {
+    .postCard {
+        width: 50vw;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .postCard {
+        width: 50vw;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .postCard {
+        width: 80vw;
+    }
+}
+
+.postCard__header img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.postCard__header p{
+    margin-left: 10px;
+}
+
+.postCard-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.postCard-img img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden
+
+}
+
+
+.postCard-like {
+    height: 40px;
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+.postCard-like img{
+    width: 28px;
+}
+
+.postCard-like-buttons {
+    width: 100px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-input {
+    display: flex;
+    padding: 0px 10px;
+    border-top: 1px solid rgb(189, 189, 189);
+  }
+.comment-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1em;
+  }
+.comment-input input::placeholder {
+    font-size: 15px;
+  }
+.comment-input button {
+    padding: 5px;
+    font-size: 1rem;
+    border: 0;
+    outline: none;
+  }
+
+.react-emoji {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+#commentSetButton{
+    background-color: white;
+    color: #0095f6;
+    cursor: pointer;
+}
+
+.postCard-comments {
+    padding: 0px 10px 0px 10px;
+}
+
+.post-modal-image{
+    max-width: 900px;
+    object-fit: cover;
+}
+
+#commentSectionBox{
+    height: 63%;
+}
+
+#commentBoxWidth{
+    width: 600px;
+}
+
+@media all and (max-width: 1550px) {
+    .post-modal-image{
+        width: 500px;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+@media all and (max-width: 960px) {
+    .post-modal-image{
+        display: none;
+    }
+
+    #commentBoxWidth{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #commentModalBox{
+        display: block;
+        height: 100vh;
+        width: 100vw !important;
+        padding: 0px 0px !important;
+    }
+    
+    .css-i3jurc{
+        max-width: 100vw !important;
+        border-radius: 0px !important;
+    }
+
+    #commentSectionBox{
+        height: 71%;
+    }
+
+    #boxModal{
+        height: 100vh !important;
+    }
+}
+
+@media all and (max-height: 860px) {
+    #commentSectionBox{
+        height: 69%;
+    }
+}
+
+@media all and (max-height: 813px) {
+    #commentSectionBox{
+        height: 67%;
+    }
+}
+
+@media all and (max-height: 740px) {
+    #commentSectionBox{
+        height: 64%;
+    }
+}
+
+@media all and (max-height: 700px) {
+    #commentSectionBox{
+        height: 61%;
+    }
+}
+
+@media all and (max-height: 569px) {
+    #commentSectionBox{
+        height: 55%;
+    }
+}

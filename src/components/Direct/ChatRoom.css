@@ -1,0 +1,119 @@
+.chatRoom {
+    width: 100%;
+    border: 0.1px solid rgb(214, 214, 214);
+    padding-bottom: 60px;
+}
+.chatRoom1 {
+    position: relative;
+    background: white;
+}
+.chatRoom-header {
+    overflow-x: hidden;
+    font-size: 20px;
+    max-width: inherit;   
+    position: sticky;
+    width: 99.7%;
+    top: 0px;
+    background-color: #fff;
+    border-bottom: 0.1px solid rgb(214, 214, 214);
+    display: flex;
+    padding-left: 10px ;
+    padding-top: 10px ;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+}
+
+.base-container {
+    width: 100%;
+  }
+  .friend-text-div {
+    display: flex;
+    margin-left: 0.5rem;
+  }
+  
+  .friend-text-div > img {
+    height: 2rem;
+    align-self: flex-end;
+  }
+  
+  .friend-text-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .friend-text {
+    color: black;
+    box-sizing: border-box;
+    border: 0.1px solid rgb(231, 231, 231);
+    background: #ffffff;
+    border-radius: 50px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 0.12rem 0.5rem;
+    font-size: 17px;
+  }
+  
+  .my-text-div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .my-text-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .my-text {
+    background: rgb(240, 239, 239);
+    color: black;
+    background-attachment: fixed;
+    border-radius: 50px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 0.12rem 0.5rem;
+    font-size: 17px;
+  }
+  .chatRoom-input {
+    overflow-x: hidden;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    max-width: initial;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-top: 0.1px solid rgb(214, 214, 214);
+    border-left: 0.1px solid rgb(214, 214, 214);
+    border-bottom: 0.1px solid rgb(214, 214, 214);
+    display: flex;
+    margin-top: 23px;
+    background-color: white;
+  }
+  
+.chatRoom-input input {
+    width: 100%;
+    margin: 5px 0 5px 10px;
+    border: none;
+    background-color: white;
+    outline: none;
+    font-size: 1em;
+  }
+.chatRoom-input input::placeholder {
+    color: #b8b8b8;
+    font-size: 15px;
+
+  }
+.chatRoom-input button {
+    padding: 5px;
+    font-size: 1.3rem;
+    border: 0;
+    background-color: white;
+    outline: none;
+  }

@@ -1,0 +1,17 @@
+.home {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.home-container {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (max-width: 800px) {
+    .home {
+        width: 100%;
+    }
+}
